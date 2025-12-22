@@ -4,4 +4,3 @@ export { default as Home } from './Home/Home';
 export { default as NoPage } from './NoPage/NoPage';
 export { default as AddCanvas } from './AddScraper/AddCanvas.tsx';
 export { default as AddGradescope } from './AddScraper/AddGradescope.tsx';
-export { default as Launch } from './Launch/Launch';

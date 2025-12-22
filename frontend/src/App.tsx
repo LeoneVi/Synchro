@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Signup, Login, Home, NoPage, Launch, AddCanvas, AddGradescope } from './pages'
+import { Signup, Login, Home, NoPage, AddCanvas, AddGradescope } from './pages'
 import RequireAuth from './routes/RequireAuth'
 
 function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Launch />} />
+                <Route path="/" element={<Signup />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/home" element={<RequireAuth><Home /></RequireAuth>} />
