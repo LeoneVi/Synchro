@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Button/Button.tsx";
 import * as styles from "./ErrorPopup.css.ts";
 
 interface Props {
@@ -13,7 +14,7 @@ const ErrorPopup: React.FC<Props> = ({ message, onClose }) => {
     <div className={styles.overlay}>
       <div className={styles.popup}>
         <p>{message}</p>
-        <button onClick={onClose} className={styles.button}>Close</button>
+          <Button text="Close" onClick={onClose}/>
       </div>
     </div>
   );
