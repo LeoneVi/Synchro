@@ -33,8 +33,11 @@ The backend is built with JavaScript and MongoDB, while the frontend uses TypeSc
 In this project, I applied skills I developed during my previous internship, including reviewing colleagues' Git pull requests, organizing and abstracting both the front-end and backend, and maintaining consistent themes across the website.
 
 Example screenshots from the website:
-![LogInPage.png](.github/LogInPage.png)
-![HomePage.png](.github/HomePage.png)
+<p align="center">
+  <img src=".github/LogInPage.png" alt="LogInPage" width="400"/>
+  <img src=".github/HomePage.png" alt="HomePage" width="400"/>
+</p>
+
 
 ## Notes
 While additional improvements were planned, I focused on implementing the core functionality. Being the sole front-end contributor and balancing a full course load meant that some enhancements could not be completed by the deadline.
